@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "declaration": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "noEmitOnError": true,
+        "removeComments": false,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "ES2019",
+        "jsx": "react",
+        "baseUrl": "./packages",
+        "paths": {
+            "@/*": ["*"]
+        }
+    },
+
+    "include": ["**/*.ts", "**/*.tsx"]
+}
